@@ -1,8 +1,8 @@
 {
-    "name": "justinbusschau/hmrc-gift-aid",
+    "name": "bsqgroup/companies-house",
     "type": "library",
-    "description": "A library for charities and CASCs to claim Gift Aid (including Small Donations) from HMRC",
-    "homepage": "https://github.com/justinbusschau/hmrc-gift-aid",
+    "description": "A library for interaction with Companies House",
+    "homepage": "https://github.com/bsqgroup/companies-house",
     "license": "GPL-3.0-only",
     "authors": [
         {
@@ -10,17 +10,12 @@
             "homepage": "http://www.fubra.com/"
         },
         {
-            "name": "Long Luong - Veda Consulting",
-            "email": "long@vedaconsulting.co.uk",
-            "homepage": "http://www.vedaconsulting.co.uk/uk-hrmc-gift-aid-online-submission/"
-        },
-        {
-            "name": "Justin Busschau",
-            "email": "justin.busschau@gmail.com"
+            "name": "Kieran White",
+            "email": "kwhite@myself.com"
         }
     ],
     "autoload": {
-        "psr-4": { "GovTalk\\GiftAid\\" : "src/" }
+        "psr-4": { "GovTalk\\CompaniesHouse\\" : "src/" }
     },
     "require": {
         "php": ">=5.3.2",
@@ -28,8 +23,6 @@
     },
     "require-dev": {
         "guzzle/plugin-mock": "~3.1",
-        "mockery/mockery": "~0.8",
-        "phpunit/phpunit": "~3.7.16",
-        "squizlabs/php_codesniffer": "~1.4"
+        "phpunit/phpunit": "~3.7.16"
     }
 }
